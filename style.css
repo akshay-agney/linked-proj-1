@@ -1,0 +1,38 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Gilroy;
+}
+
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
+.main {
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+     padding: 2vh 2vw;
+}
+nav {
+     display: flex;
+     justify-content: end;
+     gap: 1vw;
+     height: 80px;
+     align-items: center;
+     background-color: aqua;
+}
+#bag {
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     background-color: rgb(17, 16, 16);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#bag i {
+     color: aliceblue;
+}
